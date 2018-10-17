@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('UTC');  
-// change the following paths if necessary
+// Change according to the program requirments
 
 
 $yii=dirname(__FILE__).'/../yii-1.1.15/framework/yii.php';
