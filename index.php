@@ -9,7 +9,10 @@ $debug=dirname(__FILE__).'/protected/config/debug.php';
 
 include ($debug);
 
+
 require_once($yii);
+
+
 $app = Yii::createWebApplication($config);
 
 // Yii::import("application.vendors.*"); 
